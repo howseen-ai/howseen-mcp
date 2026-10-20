@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.howseen/howseen-mcp",
+  "title": "Howseen",
+  "description": "AI visibility for your brand: how ChatGPT, Gemini, Perplexity and Google AI answers name you, cite sources and rank competitors.",
+  "repository": {
+    "url": "https://github.com/howseen-ai/howseen-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://howseen.ai/mcp",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.howseen.ai/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token: your Howseen API key (Settings > API & AI assistants), as 'Bearer hs_live_...'",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
