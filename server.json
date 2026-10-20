@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.howseen/howseen-mcp",
   "title": "Howseen",
-  "description": "AI visibility for your brand: how ChatGPT, Gemini, Perplexity and Google AI answers name you, cite sources and rank competitors.",
+  "description": "How ChatGPT, Gemini, Perplexity and Google AI name your brand, cite sources and rank rivals.",
   "repository": {
     "url": "https://github.com/howseen-ai/howseen-mcp",
     "source": "github"
